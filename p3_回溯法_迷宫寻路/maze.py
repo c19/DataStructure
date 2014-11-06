@@ -42,7 +42,7 @@ class Point(object):
 		else:
 			return True
 	def get_directions(self):
-		directions = [Point(self.row, self.col-1), Point(self.row-1, self.col), Point(self.row, self.col+1), Point(self.row+1, self.col)]
+		directions = [Point(self.row, self.col+1), Point(self.row+1, self.col), Point(self.row, self.col-1), Point(self.row-1, self.col)]
 		directions = [direction for direction in directions if direction.walkable()]
 		return directions
 	def move(self, end_point):
