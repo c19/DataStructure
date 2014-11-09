@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # encoding=utf-8
-# maze solving[back tracking]
+# N queen problem
 # caoyijun2050@gmail.com
 # 曹逸君 1352872
 
