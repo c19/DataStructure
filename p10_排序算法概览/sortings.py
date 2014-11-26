@@ -241,9 +241,10 @@ def test(algo, size=10000):
 	print stringStream.getvalue()
 
 def main():
-	for algo in [bucket_sort, radix_sort, shell_sort, quick_sort]:#, heap_sort, merge_sort, insert_sort, selection_sort, bubble_sort]:
-		test(algo, 100000)
+	for algo in [bucket_sort, radix_sort, shell_sort, quick_sort, heap_sort, merge_sort, insert_sort, selection_sort, bubble_sort]:
+		test(algo)
 
+# for test use
 mylist = random_list()
 
 if __name__ == '__main__':
